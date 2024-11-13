@@ -1,0 +1,35 @@
+theme = "jetbrains_dark"
+
+[editor]
+line-number = "relative"
+# cursorline = true
+# cursorcolumn = true
+completion-replace = true
+# undercurl = true
+rulers = [80]
+bufferline = "always"
+# popup-border = "all"
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[editor.cursor-shape]
+normal = "block"
+insert = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+git-ignore = false
+
+[editor.gutters]
+layout = ["diagnostics", "line-numbers", "spacer", "spacer"]
+
+[keys.normal]
+q = ":wq"
+C-o = ":config-open"
+esc = ":w"
+
+[keys.insert]
+C-s = ":w"
