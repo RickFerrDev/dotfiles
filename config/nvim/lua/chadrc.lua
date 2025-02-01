@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "vscode_dark",
+	theme = "gruvbox",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
@@ -15,7 +15,7 @@ M.base46 = {
 }
 
 M.lsp = {
-  signature = false
+  signature = true
 }
 
 return M

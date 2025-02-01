@@ -4,7 +4,7 @@ require("nvchad.configs.lspconfig").defaults()
 local lspconfig = require "lspconfig"
 
 -- EXAMPLE
-local servers = { "html", "cssls", "eslint", "bashls" }
+local servers = { "html", "cssls", "eslint", "bashls", "clangd" }
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config
@@ -67,5 +67,3 @@ require("typescript-tools").setup {
   },
   code_lens = false
 }
-
-
